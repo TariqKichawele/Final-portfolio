@@ -128,28 +128,49 @@
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
-/* About me cards hover text colors in dark mode - using bright visible colors */
+/* Tools I use heading in dark mode */
+.dark #about h4 {
+  color: white !important;
+}
+
+/* About me cards icon colors in dark mode - white when not hovering */
+.dark #about motion-li svg,
+.dark #about li svg {
+  color: white !important;
+}
+
+/* About me cards hover text colors in dark mode - black text on hover */
 .dark #about motion-li:hover h3,
 .dark #about li:hover h3 {
-  color: #ffffff !important;
+  color: #000000 !important;
   font-weight: 700 !important;
 }
 
 .dark #about motion-li:hover p,
 .dark #about li:hover p {
-  color: #fbbf24 !important;
+  color: #000000 !important;
   font-weight: 500 !important;
+}
+
+/* About me cards hover icon colors in dark mode - black icons on hover */
+.dark #about motion-li:hover svg,
+.dark #about li:hover svg {
+  color: #000000 !important;
 }
 
 /* Additional specificity for motion components */
 .dark motion-li:hover h3 {
-  color: #ffffff !important;
+  color: #000000 !important;
   font-weight: 700 !important;
 }
 
 .dark motion-li:hover p {
-  color: #fbbf24 !important;
+  color: #000000 !important;
   font-weight: 500 !important;
+}
+
+.dark motion-li:hover svg {
+  color: #000000 !important;
 }
 
 /* Services section text colors in dark mode */

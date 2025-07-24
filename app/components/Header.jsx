@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import { Download } from 'lucide-react'
 
 const Header = () => {
   return (
@@ -58,7 +59,7 @@ const Header = () => {
                     href="/sample-resume.pdf" download 
                     className='px-6 sm:px-8 md:px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white text-black dark:bg-darkTheme dark:text-white dark:border-white/50 text-sm sm:text-base w-full sm:w-auto justify-center'
                 >
-                    my resume <Image src={assets.download_icon} alt='' className='w-4'/>
+                    my resume <Download className='w-4 h-4 dark:text-white'/>
                 </motion.a>
         </div>
     </div>
