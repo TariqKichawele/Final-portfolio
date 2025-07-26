@@ -6,9 +6,9 @@ import { Code2, GraduationCap, FolderOpen } from 'lucide-react'
 
 const About = ({isDarkMode}) => {
   const infoList = [
-    { icon: Code2, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: GraduationCap, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: FolderOpen, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: Code2, title: 'Languages', description: 'HTML, CSS, Java, TypeScript, Python' },
+    { icon: GraduationCap, title: 'Education', description: 'Bsc Public Health' },
+    { icon: FolderOpen, title: 'Projects', description: 'Built more than 10 projects' }
   ];
 
   return (
@@ -56,9 +56,9 @@ const About = ({isDarkMode}) => {
                 className='flex-1 min-w-0'
             >
                 <p className='mb-10 max-w-2xl font-Ovo text-sm sm:text-base leading-loose'>
-                    I build web and mobile applications with clean code and creative UI/UX designs. Worked as an intern at <a href="https://www.revature.com/" target='_blank' className='text-blue-500 hover:underline'>Revature</a> as a Backend Developer
+                    I build web and mobile applications with clean code and creative UI/UX designs. Worked as an intern at <a href="https://www.revature.com/" target='_blank' className='text-red-500 hover:underline'>Revature</a> as a Backend Developer
                     where I gained experience in building scalable asnd efficient backend systems using Java, Spring Boot, and PostgreSQL. Also, I have worked 
-                    at <a href="https://www.scaleai.com/" target='_blank' className='text-blue-500 hover:underline'>Scale AI</a> where I evaluated, ranked, and provided feedback on AI-generated code to improve model accuracies and designed and answered 
+                    at <a href="https://www.scaleai.com/" target='_blank' className='text-red-500 hover:underline'>Scale AI</a> where I evaluated, ranked, and provided feedback on AI-generated code to improve model accuracies and designed and answered 
                     computer science-related questions to enhance AI training datasets.
                 </p>
 

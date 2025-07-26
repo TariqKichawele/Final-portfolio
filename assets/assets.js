@@ -80,24 +80,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Podcastr',
+        description: 'Web Application',
+        bgImage: '/podcast.png',
+        link: 'https://podcastr-beryl-chi.vercel.app'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Architeck AI',
+        description: 'Web Application',
+        bgImage: '/architeck.png',
+        link: 'https://architeck-ai.vercel.app'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Mojito',
+        description: 'Web Application',
+        bgImage: '/mojito.png',
+        link: 'https://mocktail-gsap.vercel.app'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Store It',
+        description: 'Web Application',
+        bgImage: '/storeit.png',
+        link: 'https://store-it-theta-five.vercel.app'
     },
 ]
 

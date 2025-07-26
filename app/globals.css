@@ -139,6 +139,8 @@
   color: white !important;
 }
 
+/* Logo text colors in dark mode - removed to allow inline styles */
+
 /* About me cards hover text colors in dark mode - black text on hover */
 .dark #about motion-li:hover h3,
 .dark #about li:hover h3 {

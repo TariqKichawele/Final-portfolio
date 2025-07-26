@@ -58,9 +58,11 @@ const Work = ({isDarkMode}) => {
                             <h2 className='font-semibold text-sm sm:text-base truncate text-black dark:text-black'>{project.title}</h2>
                             <p className='text-xs sm:text-sm text-gray-700 dark:text-gray-700 truncate'>{project.description}</p>
                         </div>
-                        <div className='border rounded-full border-black w-8 sm:w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition flex-shrink-0 ml-2'>
-                            <Image src={assets.send_icon} alt='send icon' className='w-4 sm:w-5'/>
-                        </div>
+                        <a href={project.link} target='_blank' rel='noopener noreferrer'>
+                            <div className='border rounded-full border-black w-8 sm:w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-red-500 transition-all duration-500 flex-shrink-0 ml-2'>
+                                <Image src={assets.send_icon} alt='send icon' className='w-4 sm:w-5'/>
+                            </div>
+                        </a>
                     </div>
                     
                 </motion.div>
