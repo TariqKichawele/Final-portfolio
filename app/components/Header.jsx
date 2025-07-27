@@ -28,7 +28,7 @@ const Header = () => {
             transition={{duration: 0.8, delay: 0.5}}
             className='text-responsive-xl font-Ovo leading-tight px-2'
         >
-            fullstack web developer based in Raleigh, NC.
+            Fullstack Developer & Problem Solver
         </motion.h1>
 
         <motion.p
@@ -37,7 +37,9 @@ const Header = () => {
             transition={{duration: 0.6, delay: 0.7}}
             className='max-w-2xl mx-auto font-Ovo text-sm sm:text-base px-4'
         >
-            I am a fullstack web developer from Raleigh, NC with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.
+            Based in Raleigh, NC, I create modern web applications with clean code and exceptional user experiences. 
+            With expertise in React, Node.js, and cloud technologies, I've helped startups and enterprises build 
+            scalable solutions that users love.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4 w-full max-w-md'>

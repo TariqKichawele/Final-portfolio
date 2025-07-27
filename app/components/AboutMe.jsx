@@ -56,7 +56,8 @@ const About = ({isDarkMode}) => {
                 className='flex-1 min-w-0'
             >
                 <p className='mb-10 max-w-2xl font-Ovo text-sm sm:text-base leading-loose'>
-                    I build web and mobile applications with clean code and creative UI/UX designs. Worked as an intern at <a href="https://www.revature.com/" target='_blank' className='text-red-500 hover:underline'>Revature</a> as a Backend Developer
+                    I build web and mobile applications with clean code and creative UI/UX designs. I graduated from the University of North Carolina at Charlotte with a Bsc in Public Health 
+                    but pivoted into the tech industry. My journey in tech began at <a href="https://www.revature.com/" target='_blank' className='text-red-500 hover:underline'>Revature</a> as a Backend Developer
                     where I gained experience in building scalable asnd efficient backend systems using Java, Spring Boot, and PostgreSQL. Also, I have worked 
                     at <a href="https://www.scaleai.com/" target='_blank' className='text-red-500 hover:underline'>Scale AI</a> where I evaluated, ranked, and provided feedback on AI-generated code to improve model accuracies and designed and answered 
                     computer science-related questions to enhance AI training datasets.

@@ -13,7 +13,12 @@ const Contact = () => {
     const formData = new FormData(event.target);
 
     // Enter your web3 froms access key below
-    formData.append("access_key", "------Enter Access Key Here-------");
+    formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY);
+    
+    // Optional: Add additional configuration
+    formData.append("subject", "New Contact Form Submission from Portfolio");
+    formData.append("from_name", "Portfolio Contact Form");
+    formData.append("redirect", "https://web3forms.com/success");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

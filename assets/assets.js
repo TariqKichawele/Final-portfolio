@@ -81,27 +81,43 @@ export const assets = {
 export const workData = [
     {
         title: 'Podcastr',
-        description: 'Web Application',
+        description: 'A comprehensive podcast platform featuring AI-powered podcast generation, user authentication, and real-time audio streaming. Built with modern web technologies for optimal performance.',
         bgImage: '/podcast.png',
-        link: 'https://podcastr-beryl-chi.vercel.app'
+        link: 'https://podcastr-beryl-chi.vercel.app',
+        github: 'https://github.com/TariqKichawele/podcastr',
+        status: 'Completed',
+        date: 'December 2024',
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Convex', 'Clerk']
     },
     {
         title: 'Architeck AI',
-        description: 'Web Application',
+        description: 'An innovative AI-powered architecture design platform that helps users create and visualize architectural plans using artificial intelligence and modern design principles.',
         bgImage: '/architeck.png',
-        link: 'https://architeck-ai.vercel.app'
+        link: 'https://architeck-ai.vercel.app',
+        github: 'https://github.com/TariqKichawele/architeck-ai',
+        status: 'Completed',
+        date: 'November 2024',
+        technologies: ['React', 'TypeScript', 'Tailwind CSS', 'OpenAI API', 'Framer Motion']
     },
     {
         title: 'Mojito',
-        description: 'Web Application',
+        description: 'A modern mocktail recipe website with interactive animations and smooth user experience. Features dynamic content presentation and responsive design.',
         bgImage: '/mojito.png',
-        link: 'https://mocktail-gsap.vercel.app'
+        link: 'https://mocktail-gsap.vercel.app',
+        github: 'https://github.com/TariqKichawele/mojito-website',
+        status: 'Completed',
+        date: 'October 2024',
+        technologies: ['React', 'GSAP', 'Tailwind CSS', 'JavaScript']
     },
     {
         title: 'Store It',
-        description: 'Web Application',
+        description: 'A comprehensive file storage and management solution with secure cloud storage, file sharing capabilities, and intuitive user interface for seamless file organization.',
         bgImage: '/storeit.png',
-        link: 'https://store-it-theta-five.vercel.app'
+        link: 'https://store-it-theta-five.vercel.app',
+        github: 'https://github.com/TariqKichawele/store-it',
+        status: 'Completed',
+        date: 'September 2024',
+        technologies: ['Next.js', 'TypeScript', 'Appwrite', 'Tailwind CSS', 'React Hook Form']
     },
 ]
 

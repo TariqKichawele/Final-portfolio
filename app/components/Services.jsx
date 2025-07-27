@@ -44,7 +44,7 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm sm:text-base px-4'
       >
-        I am a fullstack web developer from Raleigh, NC with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.
+        I create modern web applications with clean code and exceptional user experiences, helping businesses build scalable solutions that drive results.
       </motion.p>
 
         <motion.div
